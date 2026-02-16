@@ -12,7 +12,7 @@ ORG:Glamour Girl
 TITLE:Owner
 TEL;TYPE=CELL:+94768013588
 EMAIL:glamourgirl_gg@hotmial.com
-URL:https://www.Glamourgirl.com
+URL:https://azeemmushaan.netlify.app/
 END:VCARD`;
 
   const blob = new Blob([vcard], { type: "text/vcard" });
@@ -29,7 +29,7 @@ export default function PersonalActionButtons() {
 
   const handleShare = async () => {
     try {
-      await navigator.clipboard.writeText("https://www.Glamourgirl.com/sarah");
+      await navigator.clipboard.writeText("https://azeemmushaan.netlify.app/");
       toast({ title: "Link copied!", description: "Share it with your friends ✨" });
     } catch {
       toast({ title: "Could not copy link", variant: "destructive" });

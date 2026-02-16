@@ -10,7 +10,7 @@ N:;;;;
 FN:Azeem Mushaan
 ORG:Glamour Girl
 TEL;TYPE=CELL:+94777921811
-URL:https://www.Glamourgirl.com
+URL:https://azeemmushaan.netlify.app/
 END:VCARD`;
 
   const blob = new Blob([vcard], { type: "text/vcard" });
@@ -27,7 +27,7 @@ export default function ActionButtons() {
 
   const handleShare = async () => {
     try {
-      await navigator.clipboard.writeText("https://www.Glamourgirl.com");
+      await navigator.clipboard.writeText("https://azeemmushaan.netlify.app/");
       toast({ title: "Link copied!", description: "Share it with your friends ✨" });
     } catch {
       toast({ title: "Could not copy link", variant: "destructive" });
