@@ -66,10 +66,12 @@ export default function PersonalHero() {
           className="flex flex-wrap items-center justify-center gap-1.5 mt-3">
 
           <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-[hsl(0,72%,52%)]/8 text-[hsl(0,72%,52%)] text-sm font-medium tracking-wide">
-            Proprietor of Glamour Girl Shop
+            Proprietor - Glamour Girl 
+
           </span>
           <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-[hsl(0,72%,52%)]/8 text-[hsl(0,72%,52%)] text-sm font-medium tracking-wide">
-            Gempreneur
+            Gem Trader/ Gemologist 
+
           </span>
         </motion.div>
 
@@ -98,7 +100,7 @@ export default function PersonalHero() {
             />
           </div>
           <p className="text-sm leading-relaxed text-gray-600">
-           Proprietor of Glamour Girl Cosmetic Shop. Currently studying gemstones with plans to build a future business in the gem industry. Passionate about quality, elegance, and continuous growth. Sports enthusiast with a special interest in cricket.
+           Proprietor of Glamour Girl. Currently trading gemstones with plans to expand and shape the Future of the industry. Passionate about quality, elegance, and continuous growth. Sports enthusiast with a special interest in cricket.
           </p>
         </motion.div>
       </div>

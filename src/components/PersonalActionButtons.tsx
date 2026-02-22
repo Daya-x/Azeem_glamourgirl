@@ -11,7 +11,7 @@ FN:Azeem Mushaan
 ORG:Glamour Girl
 TITLE:Owner
 TEL;TYPE=CELL:+94768013588
-EMAIL:glamourgirl_gg@hotmial.com
+EMAIL:azeemmushaan50@gmail.com
 URL:https://azeemmushaan.netlify.app/
 END:VCARD`;
 
